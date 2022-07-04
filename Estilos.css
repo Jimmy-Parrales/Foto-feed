@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-columna{
+    flex-direction: column;
+}
+
+#titulo{
+    justify-content: center;
+    background-color: white;
+} 
+
+#contenido{
+    align-items: center;
+}
+
+.datos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.datos h3{
+    display: inline;
+}
+
+.posteo{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.posteo>p{
+    padding: 5px;
+}
